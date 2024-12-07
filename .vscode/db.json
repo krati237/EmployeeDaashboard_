@@ -1,0 +1,25 @@
+{
+  "employees": [
+    {
+      "id": "fc9d",
+      "employeeno": "4",
+      "employeename": "kratika soni",
+      "city": "bhopal",
+      "salary": "123000"
+    },
+    {
+      "id": "be13",
+      "employeeno": "01",
+      "employeename": "Aaradhya",
+      "city": "88",
+      "salary": "100000"
+    },
+    {
+      "id": "73e5",
+      "employeeno": "4",
+      "employeename": "kratika soni",
+      "city": "indore",
+      "salary": "1234"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <input type="checkbox" id="click">
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li class="active">
+                <a href="index.html">
+                    <i class="fa-solid fa-gauge"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="update.html">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Add Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="display.html">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Display Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="update.html">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <span>Update Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span>FAQ</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="#">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <label for="click" ><i class="fa-solid fa-bars" id="bar"></i></label>
+            <div class="header-title">
+                <span>Employee</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user-info">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search"/>
+                </div>
+            </div>
+        </div>
+        <table id="demo"></table>
+        <script src="js/display.js"></script>
+       
+        
+    </div>
+       
+    
+</body>
+</html>
